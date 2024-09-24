@@ -14,6 +14,7 @@ int main(){
     if(input == "exit"){
         break;
     }
+    /* Try to formalize this as a function */
     cout << "Hello, " + input <<endl;
   }
    return 0;
