@@ -1,3 +1,6 @@
+/*Mokobia Jane Chidima, st135735@student.spbu.ru, 24.B83*/
+
+
 #include "header.h"
 
 void Greet(){

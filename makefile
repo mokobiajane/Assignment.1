@@ -1,3 +1,4 @@
+
 myProg : hello.o main.o
 	g++ hello.o main.o -o myProg
 

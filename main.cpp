@@ -8,7 +8,7 @@ int main(){
   while (true)
   {
     Greet();
-    std::cout<< "user_name:" ;
+    std::cout<< "Enter User_name or (enter 'exit' to quit):";
     std::cin>>user_name;
 
     if(user_name == "exit"){
