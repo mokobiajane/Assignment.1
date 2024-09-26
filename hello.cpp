@@ -1,7 +1,7 @@
 /*Mokobia Jane Chidima, st135735@student.spbu.ru, 24.B83*/
 
 
-#include "header.h"
+#include "hello.h"
 
 void Greet(){
 std::cout<< "Hello, World!" << std::endl;
@@ -14,4 +14,4 @@ std::cout<< "Hello, "<< user_name << std::endl;
 
 //Creating Hello world.. with thesame function "void" 
 //and giving the function a name.
-//then calling this function in my header.h and main.cpp
+//then calling this function in my hello.h and main.cpp
