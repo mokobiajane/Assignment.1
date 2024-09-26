@@ -3,19 +3,24 @@
 #include "header.h"
 
 int main(){
-  string input;
-  cout << "Hello World \n";
+  std::string user_name;
 
   while (true)
   {
-    cout << "user_name:" ;
-    getline(cin, input);
+    Greet();
+    std::cout<< "user_name:" ;
+    std::cin>>user_name;
 
-    if(input == "exit"){
+    if(user_name == "exit"){
         break;
     }
+    Hi(user_name);
+//<<<<<<< Updated upstream
     /* Try to formalize this as a function */
-    cout << "Hello, " + input <<endl;
+    //cout << "Hello, " + input <<endl; i did this 
+    //in hello.cpp already
   }
    return 0;
 }
+
+//>>>>>>> Stashed changes

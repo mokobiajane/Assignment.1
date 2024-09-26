@@ -1,9 +1,13 @@
-/*Mokobia Jane Chidima, st135735@student.spbu.ru, 24.B83*/
+//Mokobia Jane Chidima, st135735@student.spbu.ru, 24.B83
 
 
 #include <iostream>
 #include <string>
-using namespace std;
+void Hi(std::string user_name);
+void Greet();
+
+//<<<<<<< Updated upstream
+//using namespace std;
 
 /* Into the header you shoudl put declarations of your functions. Declarations is:
   return_value_type FunctionName(argument_type1 ArgName1, argument_type2 ArgName2 ...);
@@ -14,3 +18,8 @@ using namespace std;
   }
   After that u can add your header via include into the main.cpp and use your function
   */
+//=======
+//using namespace std;
+
+
+//>>>>>>> Stashed changes

@@ -1,11 +1,24 @@
-TARGET = main 
+myProg : hello.o main.o
+	g++ hello.o main.o -o myProg
 
-all:: $(TARGET)
+hello.o : hello.cpp
+	g++ -c hello.cpp
+
+main.o : main.cpp
+	g++ -c main.cpp
+
+clean : 
+	rm -rf myProg *.o
 
 
-$(TARGET): main.cpp
-	g++ -o $(TARGET) main.cpp
+# TARGET = main 
+
+# all:: $(TARGET)
 
 
-clean:
-	rm -rf $(TARGET)
+# $(TARGET): main.cpp
+# 	g++ -o $(TARGET) main.cpp
+
+
+# clean:
+# 	rm -rf $(TARGET)
