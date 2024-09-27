@@ -1,8 +1,7 @@
 //Mokobia Jane Chidima, st135735@student.spbu.ru, 24.B83
 
 #ifndef HELLO_H
-#define HELLO_H
-
+#define HELLO_H      
 #include <iostream>
 #include <string>
 void Hi(std::string user_name);
